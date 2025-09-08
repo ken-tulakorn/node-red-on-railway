@@ -1,0 +1,13 @@
+{
+  "name": "node-red-on-railway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Node-RED app for Railway",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node node_modules/node-red/red.js -p $PORT -s settings.js --userDir /data"
+  },
+  "dependencies": {
+    "node-red": "^4.0.0"
+  }
+}
